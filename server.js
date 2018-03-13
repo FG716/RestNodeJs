@@ -6,11 +6,9 @@
 //
 // }).listen(3001);
 // console.log('Server running at http://localhost:3001/');
-var express = require('express'),
-    mongoose = require('mongoose'),
-    fs = require('fs')
-
-var express = require('express');
+var express = require('express')
+var mongoose = require('mongoose')
+var fs = require('fs')
 var favicon = require('serve-favicon');
 var logger = require('morgan');
 var methodOverride = require('method-override');
